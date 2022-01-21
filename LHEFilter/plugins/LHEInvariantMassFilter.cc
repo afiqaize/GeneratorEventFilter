@@ -1,4 +1,4 @@
-#include "GeneratorInterface/GenFilters/plugins/LHEInvariantMassFilter.h"
+#include "GeneratorEventFilter/LHEFilter/plugins/LHEInvariantMassFilter.h"
 
 using namespace edm;
 

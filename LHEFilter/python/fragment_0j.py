@@ -35,8 +35,8 @@ generator = cms.EDFilter("Pythia8HadronizerFilter",
 
 etatMassFilter = cms.EDFilter("LHEInvariantMassFilter",
                               ParticleID = cms.vint32(24, 5, -24, -5),
-                              minMass = cms.double(338.),
-                              maxMass = cms.double(350.),
+                              minMass = cms.double(337.),
+                              maxMass = cms.double(349.),
                               src = cms.InputTag("externalLHEProducer")
 )
 
